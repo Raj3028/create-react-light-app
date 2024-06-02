@@ -8,7 +8,7 @@ const Home = () => {
 
             <div className="logo-container">
                 <img className="logo"
-                    src="./assets/logo.png"
+                    src="https://i.ibb.co/svysHRV/logo.png"
                     alt="React Logo"
                 />
             </div>
