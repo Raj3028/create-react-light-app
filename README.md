@@ -1,3 +1,4 @@
+<div align="center"><img src="https://github.com/Raj3028/create-react-lite-app/blob/main/public/assets/logo.png?raw=true" width="120px" height="105px" /></div>
 <h1 align="center">React Lite App</h1>
 <p align="center">
   <em>Getting Started with <code>npx @raj3028/create-react-lite-app</code>, powered by Rajesh</em>
