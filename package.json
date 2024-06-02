@@ -1,7 +1,7 @@
 {
   "name": "@raj3028/create-react-lite-app",
   "title": "create-react-lite-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight React application with Webpack emphasizes performance and simplicity. By utilizing Webpack's bundling, code splitting, and optimization features, combined with React’s efficient rendering, the application achieves fast load times and a seamless user experience.",
   "bin": "./bin/cli.mjs",
   "author": "Rajesh Kumar Sahoo",
