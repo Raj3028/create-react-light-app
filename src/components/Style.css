@@ -1,0 +1,53 @@
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3em;
+    margin-top: 20px;
+    color: rgba(0, 255, 255, 0.884);
+}
+
+.text {
+    font-size: 1.2em;
+    color: rgba(25, 192, 192, 0.87);
+    text-align: justify;
+    max-width: 1000px;
+}
+
+.link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.logo {
+    width: 115px;
+    height: 100px;
+    filter: brightness(1.2) saturate(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.4));
+    animation: rotate 1s infinite alternate;
+}
+
+.logo-container {
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        filter: brightness(1.2) saturate(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.4));
+    }
+
+    to {
+        transform: rotate(2deg);
+        filter: brightness(1.2) saturate(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 20px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 30px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 40px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 70px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 80px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 100px rgba(0, 255, 255, 0.4)), drop-shadow(0 0 150px rgba(0, 255, 255, 0.4));
+    }
+}
